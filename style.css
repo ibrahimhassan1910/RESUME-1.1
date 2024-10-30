@@ -1,0 +1,110 @@
+body{
+    background-color: #ffffff;
+}
+/* #content{
+    margin: auto;
+    width: 60%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 0 1px #979797; */
+    /* text-align: center; */
+/* } */
+button{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(0, 132, 255, 0.692);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    /* cursor: pointer; */
+    text-align: right;
+}
+.header-content{
+    margin: 10px;
+    /* background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc; */
+    /* text-align: center; */
+    padding-top: 20px;
+    color: rgb(102, 102, 102);
+}
+.header-content img{
+    width: 20%;
+
+}
+.personal-info{
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc; */
+}
+.personal-info li{
+    list-style-type: none;
+}
+.personal-info h3{
+    color: rgba(0, 132, 255, 0.692);
+}
+.strong{
+    color: gray;
+}
+.body-content{
+    margin: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    /* border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc; */
+}
+.body-content h4{
+    color: rgba(0, 132, 255, 0.692);
+}
+.prog-lan{
+    color: rgba(255, 0, 0, 0.541);
+}
+.separator{
+    height:0.3px;
+    background-color:#cecece;
+    margin: 10px;
+}
+.footer-content{
+    margin:20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    align-items: center;
+}
+.icon-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-height: fit-content;
+    border: #333;
+}
+.footer-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    /* padding: 30px; */
+    margin: 10px;
+}
+.icon-container :hover{
+    color: rgb(0, 132, 255);
+}
+.i1{
+    max-width: 30px;
+    max-height: 30px;
+}.i2{
+    max-width: 30px;
+    max-height: 30px;
+}
+.i3{
+    max-width: 30px;
+    max-height: 30px;
+}

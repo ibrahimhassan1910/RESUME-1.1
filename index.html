@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HASSAN'S RESUME</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="link rel="
+      stylesheet
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0-beta3/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"
+      integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <button id="download" onclick="downloadPDF()">download</button>
+    <script>
+      document.getElementById("download").addEventListener("click", () => {
+        const element = document.getElementById("content"); // The HTML element you want to convert
+        html2pdf().from(element).save("hassan_ibrahim-resume.pdf");
+      });
+    </script>
+    <div id="content">
+      <div class="header-content">
+        <img src="./images/image001.png" alt="Hassan Ibrahim cover photo" />
+        <h1>Hassan Ibrahim</h1>
+        <h2>Software Engineer</h2>
+      </div>
+      <div class="personal-info">
+        <div class="experience">
+          <h3>EXPERIENCE</h3>
+          <li>
+            <strong class="strong">2023 - 2024</strong>
+            <br />
+            IT technician at Mahali Pa Watoto
+          </li>
+        </div>
+        <div class="experience">
+          <h3>EDUCATION</h3>
+          <li>
+            <strong class="strong">2024 - TO DATE</strong>
+            <br />
+            Certificate Software Engineering, Moringa School
+          </li>
+        </div>
+        <div class="experience">
+            <h3>EXPERTISE</h3>
+            <li>
+              <strong class="strong">2024 - TO DATE</strong>
+              <br />
+              <span class="prog-lan">JavaScript, React, Node.js, Git </span>and HTML/CSS
+
+            </li>
+          </div>
+      </div>
+
+      <div class="body-content">
+        <h4>INTRODUCTON</h4>
+        <p>
+          Hi, I am Hassan, a driven Software Engineering student at Moringa
+          School with a year of experience as an IT Technician, where I
+          developed strong technical troubleshooting skills and a solid
+          foundation in software development. I am passionate about building
+          from scratch, enjoying the process of creating effective, custom
+          solutions through code. With a unique enthusiasm for both technology
+          and automotive innovation, I am eager to contribute my skills to a
+          forward-thinking development team. I aim to combine my analytical
+          mindset and love for coding and cars to make a meaningful impact in
+          the tech industry.
+        </p>
+      </div>
+      <div class="separator"></div>
+      <footer>
+        <div class="footer-content">
+          <div class="icon-container">
+            <a href="https://www.linkedin.com/in/me/" target="_blank"
+              >LinkedIn<img src="./images/linkedin.svg" class="i1"
+            /></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"
+              >Email <img src="./images/email.svg" class="i2"
+            /></a>
+            <a href="https://github.com/ibrahimhassan1910" target="_blank"
+              >GitHub <img src="./images/github.svg" alt="" class="i3"
+            /></a>
+          </div>
+          <strong><p>Hassan Ibrahim &copy; 2024</p></strong>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
